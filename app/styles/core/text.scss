@@ -1,0 +1,28 @@
+/**
+* Component: Text
+*
+*/
+
+/**
+* Variables
+* -------------------------------------------------------------------- */
+
+
+/**
+* Style
+* -------------------------------------------------------------------- */
+
+.pt-title {
+  font-family: $font-ubuntu-regular;
+
+  &.pt-main-title {
+    font-size: 5em;
+  }
+}
+
+@media only screen
+and (max-width: $pt-phablet-max-size) {
+  .pt-title.pt-main-title {
+    font-size: 3em;
+  }
+}

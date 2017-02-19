@@ -1,0 +1,37 @@
+/**
+* Component: Fonts
+*
+*/
+
+/**
+* Variables
+* -------------------------------------------------------------------- */
+$font-caveat-brush:   'Caveat Brush';
+$font-patrick-hand:   'Patrick Hand';
+$font-roboto:         'Roboto';
+$font-ubuntu-regular: 'Ubuntu Regular';
+$font-ubuntu-bold:    'Ubuntu Bold';
+
+/**
+* Style
+* -------------------------------------------------------------------- */
+
+@font-face {
+  font-family: $font-caveat-brush;
+  src: url('fonts/Caveat_Brush/CaveatBrush-Regular.ttf');
+}
+
+@font-face {
+  font-family: $font-patrick-hand;
+  src: url('fonts/Patrick_Hand/PatrickHand-Regular.ttf');
+}
+
+@font-face {
+  font-family: $font-ubuntu-bold;
+  src: url('fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+
+@font-face {
+  font-family: $font-ubuntu-regular;
+  src: url('fonts/Ubuntu/Ubuntu-Regular.ttf');
+}

@@ -1,0 +1,31 @@
+/**
+* Component: Buttons
+*
+*/
+/**
+* Variables
+* -------------------------------------------------------------------- */
+/**
+* Style
+* -------------------------------------------------------------------- */
+@media (max-width: $pt-phablet-max-size) {
+  .pt-button-group {
+    .btn-large,
+    > .btn {
+      width: 100%;
+      display: block;
+      margin: 1em 0;
+    }
+  }
+}
+
+.pt-locale-button {
+  color: black;
+}
+
+.btn-small {
+  font-size: 1.5vh;
+  padding: 0 1vh;
+  margin: 0 1vh;
+  min-width: 7vh;
+}

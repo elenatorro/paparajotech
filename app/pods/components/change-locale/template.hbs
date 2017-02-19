@@ -1,0 +1,7 @@
+{{#each localesLocale as |locale|}}
+  <li>
+    <a href="#" class="btn btn-small waves-effect waves-light light-green accent-3 pt-locale-button" {{action 'changeTo' locale.lang}}>
+      {{t locale.translation}}
+    </a>
+  </li>
+{{/each}}

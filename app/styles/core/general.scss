@@ -1,0 +1,28 @@
+/**
+* Component: General
+*
+*/
+
+/**
+* Variables
+* -------------------------------------------------------------------- */
+
+$pt-background-image-path: 'images/background.png';
+$pt-phablet-max-size: 650px;
+
+/**
+* Style
+* -------------------------------------------------------------------- */
+
+html {
+  background: url($pt-background-image-path) no-repeat center center fixed;
+  font-family: $font-ubuntu-regular;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+body, html {
+  height: 100%;
+  display: block;
+}

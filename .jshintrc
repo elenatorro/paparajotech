@@ -1,0 +1,32 @@
+{
+  "predef": [
+    "document",
+    "window",
+    "-Promise"
+  ],
+  "browser": true,
+  "boss": true,
+  "curly": true,
+  "debug": false,
+  "devel": true,
+  "eqeqeq": true,
+  "evil": true,
+  "forin": false,
+  "immed": true,
+  "laxbreak": false,
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "nonew": true,
+  "nomen": false,
+  "onevar": true,
+  "plusplus": false,
+  "regexp": true,
+  "undef": true,
+  "sub": true,
+  "strict": false,
+  "white": false,
+  "eqnull": true,
+  "esversion": 6,
+  "unused": true
+}
