@@ -11,8 +11,13 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('index', {path: '/'});
   this.route('admin');
+  this.route('index', {path: '/'});
+  this.route('contact');
+  this.route('events');
+  this.route('companies', function() {
+    this.route('company', {path: '/:company_id'});
+  });
 });
 
 export default Router;

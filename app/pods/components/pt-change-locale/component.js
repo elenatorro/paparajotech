@@ -4,9 +4,11 @@ import { Locales } from 'paparajotech/constants/locales';
 export default Ember.Component.extend({
   i18nService: Ember.inject.service('i18n'),
 
+  classNames: ['pt-change-locale'],
+
   tagName: 'ul',
 
-  locales: ['EN', 'ES', 'PANOCHO'],
+  locales: ['EN', 'ES'],
 
   localesLocale: Ember.computed('locales', function() {
     return this.get('locales').map((locale) => {

@@ -1,0 +1,9 @@
+{{tile-layer url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
+
+{{#each companies as |company|}}
+  {{#marker-layer location=company.geometry.coordinates icon=icon}}
+   {{#popup-layer}}
+      {{pt-popup company=company.properties}}
+   {{/popup-layer}}
+  {{/marker-layer}}
+{{/each}}

@@ -1,0 +1,21 @@
+<div class="card-stacked">
+  <section class="card-content">
+    {{#if meetupEvent.group_photo}}
+      <img class="pt-event-card__image" src={{meetupEvent.group_photo.photo_link}} alt={{meetupEvent.name}}>
+    {{else if meetupEvent.key_photo}}
+      <img class="pt-event-card__image" src={{meetupEvent.key_photo.photo_link}} alt={{meetupEvent.name}}>
+    {{/if}}
+
+    <h5 class="header">{{meetupEvent.name}}</h5>
+    {{h-html meetupEvent.description}}
+
+    {{#if meetupEvent.next_event}}
+      <h5>{{t 'components.eventCard.template.nextEvent'}}</h5>
+      <p>{{meetupEvent.next_meetupEvent.name}}</p>
+      <p>{{moment-format meetupEvent.next_meetupEvent.time eventDateFormat eventDateTimestamp}}</p>
+    {{/if}}
+  </section>
+  <footer class="card-action">
+    <a href={{meetupEvent.link}} target="_blank">{{t 'components.eventCard.template.eventLink'}}</a>
+  </footer>
+</div>

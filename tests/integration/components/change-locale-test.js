@@ -3,14 +3,14 @@ import localesEN from 'paparajotech/locales/en/translations';
 import localesES from 'paparajotech/locales/es/translations';
 import hbs from 'htmlbars-inline-precompile';
 
-moduleForComponent('change-locale', 'Integration | Component | change-locale', {
+moduleForComponent('pt-change-locale', 'Integration | Component | pt-change-locale', {
   integration: true
 });
 
 test('it should be able to change the locale', function(assert) {
   var _localesList, _changeToEnglishButton, _changeToSpanishButton;
 
-  this.render(hbs`{{change-locale}}`);
+  this.render(hbs`{{pt-change-locale}}`);
 
   _localesList = this.$('ul').eq(0);
   _changeToEnglishButton = this.$('li a').eq(0);

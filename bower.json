@@ -1,8 +1,13 @@
 {
   "name": "paparajotech",
+  "version": "0.1.0",
+  "description": "Tech companies and events based on Región de Murcia.",
   "dependencies": {
     "ember": "~2.8.0",
-    "ember-cli-shims": "0.1.1"
+    "ember-cli-shims": "0.1.1",
+    "leaflet": "^1.0.0",
+    "Leaflet.MultiOptionsPolyline": "https://github.com/mjanda/Leaflet.MultiOptionsPolyline.git#master",
+    "fetch": "^2.0.2"
   },
   "devDependencies": {
     "materialize": "^0.97.7"

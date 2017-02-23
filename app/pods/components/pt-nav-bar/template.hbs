@@ -1,0 +1,62 @@
+<div class="nav-wrapper container pt-nav">
+  <a id="logo-container" class="pt-nav--link-logo" href="#" {{action 'goToIndex'}}>
+    <img alt="Paparajotech game logo" class="pt-nav-logo" src="{{logoImage}}"/>
+    {{t 'application.name'}}
+  </a>
+
+  {{#pt-nav-bar-collapse-button}}
+    {{t 'components.navBar.template.menu'}}
+  {{/pt-nav-bar-collapse-button}}
+
+  {{pt-change-locale id="pt-nav-bar__dropdown" class="dropdown-content pt-nav-bar__dropdown"}}
+
+  <ul class="right hide-on-med-and-down">
+    <li>
+      {{#link-to 'index'}}
+        {{t 'components.navBar.template.companies'}}
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to 'events'}}
+        {{t 'components.navBar.template.events'}}
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to 'contact'}}
+        {{t 'components.navBar.template.contact'}}
+      {{/link-to}}
+    </li>
+    <li>
+      {{#pt-nav-bar-dropdown-button class="dropdown-button"}}
+        {{t 'components.navBar.template.languages'}}
+      {{/pt-nav-bar-dropdown-button}}
+    </li>
+  </ul>
+
+  <aside>
+    <ul id="pt-nav-bar__side-bar" class="side-nav pt-nav-bar__side-bar">
+      <h3 class="pt-nav-bar__side-bar__heading">{{t 'components.navBar.template.menu'}}</h3>
+      <li>
+        {{#link-to 'index'}}
+          {{t 'components.navBar.template.companies'}}
+        {{/link-to}}
+      </li>
+      <li>
+        {{#link-to 'events'}}
+          {{t 'components.navBar.template.events'}}
+        {{/link-to}}
+      </li>
+      <li>
+        {{#link-to 'contact'}}
+          {{t 'components.navBar.template.contact'}}
+        {{/link-to}}
+      </li>
+      <li>
+        <section>
+          <h4 class="pt-nav-bar__side-bar__heading">{{t 'components.navBar.template.languages'}}</h4>
+          {{pt-change-locale class="pt-nav-bar__side-bar__sublist browser-default"}}
+        </section>
+      </li>
+    </ul>
+  </aside>
+</div>

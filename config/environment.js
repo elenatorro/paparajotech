@@ -9,7 +9,10 @@ module.exports = function(environment) {
     locationType: 'auto',
     EmberENV: {},
     useApi: true,
-    APP: {}
+    APP: {},
+    i18n: {
+      defaultLocale: 'es'
+    }
   };
 
   if (environment === 'development') {

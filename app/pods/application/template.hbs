@@ -1,8 +1,11 @@
 <div class="paparajotech">
+  {{pt-nav-bar on-go-to-index='goToIndex'}}
 
-  {{nav-bar on-go-to-index='goToIndex'}}
-  <div class="container">
-    {{side-nav }}
-    {{outlet}}
-  </div>
+  <section class="section center">
+    {{t 'application.title'}}
+  </section>
+
+  {{outlet}}
+
+  {{pt-footer}}
 </div>

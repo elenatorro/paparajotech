@@ -1,6 +1,6 @@
 import {moduleForComponent, test} from 'ember-qunit';
 
-moduleForComponent('change-locale', 'Unit | Component | change-locale', {
+moduleForComponent('pt-change-locale', 'Unit | Component | pt-change-locale', {
   needs: ['service:i18n'],
   unit: true
 });

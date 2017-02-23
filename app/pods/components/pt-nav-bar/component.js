@@ -6,7 +6,8 @@ const {
 } = Ember;
 
 export default Component.extend({
-  classNames: ['pt-nav-bar', 'grey', 'lighten-3'],
+  classNames: ['pt-nav-bar'],
+
   tagName: 'nav',
 
   logoImage: `${ENV.rootURL}assets/images/logo.png`,
