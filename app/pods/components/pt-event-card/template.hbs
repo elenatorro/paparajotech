@@ -12,7 +12,7 @@
     {{#if meetupEvent.next_event}}
       <h5>{{t 'components.eventCard.template.nextEvent'}}</h5>
       <p>{{meetupEvent.next_meetupEvent.name}}</p>
-      <p>{{moment-format meetupEvent.next_meetupEvent.time eventDateFormat eventDateTimestamp}}</p>
+      <p>{{moment-format meetupEvent.next_meetupEvent.time 'DD MMM YYYY' 'x'}}</p>
     {{/if}}
   </section>
   <footer class="card-action">
