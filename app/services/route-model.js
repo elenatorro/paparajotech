@@ -1,10 +1,11 @@
-import E from 'ember';
+import Ember from 'ember';
 
-export default E.Service.extend({
-  meetupApiS: E.inject.service('meetupApi'),
-  storeS: E.inject.service('store'),
+export default Ember.Service.extend({
+  meetupApiS: Ember.inject.service('meetupApi'),
+
+  storeS: Ember.inject.service('store'),
 
   companiesGeoJSON() {
-    return this.get('store').findRecord('user', 1234 );
+    // TODO
   },
 });
