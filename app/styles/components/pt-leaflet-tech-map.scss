@@ -1,0 +1,10 @@
+.pt-leaflet-tech-map {
+  display: block;
+  width: 100%;
+  height: 80vh;
+
+  .pt-leaflet-tech-map__map {
+    width: inherit;
+    height: inherit;
+  }
+}

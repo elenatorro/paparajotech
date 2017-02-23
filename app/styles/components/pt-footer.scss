@@ -1,0 +1,9 @@
+.page-footer.pt-footer {
+  margin-top: 0;
+  background-color: $pt-color-black;
+  color: $pt-primary-color;
+
+  .pt-footer__link {
+    color: $pt-primary-color;
+  }
+}

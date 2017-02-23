@@ -1,0 +1,41 @@
+.pt-nav-bar {
+  background-color: $pt-color-black;
+}
+
+.pt-nav-bar__side-bar {
+  z-index: $pt-z-index-sidebar;
+}
+
+.pt-nav--links {
+  li {
+    background-color: $pt-color-black;
+  }
+}
+
+.pt-nav-bar__side-bar__sublist li a {
+  padding-left: $pt-global-spacing * 2;
+}
+
+.pt-nav--link-logo {
+  font-size: 1.2em;
+}
+
+.pt-nav-bar__side-bar__heading {
+  padding: 0 $pt-global-spacing;
+  color: $pt-color-black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.pt-nav-bar__dropdown {
+  margin-top: $pt-global-spacing * 3;
+  background-color: $pt-color-black;
+}
+
+.pt-nav-bar__dropdown li a {
+  color: white;
+}
+
+.pt-nav-bar__dropdown {
+  min-width: 12vw;
+}
