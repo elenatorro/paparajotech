@@ -8,7 +8,7 @@ const {
 } = Ember;
 
 const MeetupAPI = {
-  URL: 'http://api.meetup.com'
+  URL: 'https://api.meetup.com'
 };
 
 export default Service.extend({

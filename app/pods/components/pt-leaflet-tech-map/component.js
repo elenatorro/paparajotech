@@ -1,6 +1,7 @@
 import Ember from 'ember';
 import LeafletMap from 'ember-leaflet/components/leaflet-map';
 import csv2geojson from 'npm:csv2geojson';
+import ENV from 'paparajotech/config/environment';
 
 const MurciaCoords = Object.freeze({
   LAT: 38.086240,
@@ -44,8 +45,8 @@ export default LeafletMap.extend({
   scrollWheelZoom: false,
 
   icon: new L.icon({
-    iconUrl:       'assets/images/leaf_logo.png',
-    iconRetinaUrl: 'assets/images/leaf_logo.png',
+    iconUrl:       `${ENV.rootURL}assets/images/leaf_logo.png`,
+    iconRetinaUrl: `${ENV.rootURL}assets/images/leaf_logo.png`,
     iconSize:      [30, 50],
     iconAnchor:    [22, 94],
     popupAnchor:   [-3, -76],

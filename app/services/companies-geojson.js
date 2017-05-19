@@ -6,8 +6,8 @@ const {
 } = Ember;
 
 const Companies = {
-  PATH: ENV.environment === 'production'
-    ? 'https://raw.githubusercontent.com/elenatorro/paparajotech/master/public/maps/companies.csv'
+  PATH: ENV.environment === 'production' ?
+    'https://raw.githubusercontent.com/elenatorro/paparajotech/master/public/maps/companies.csv'
     : '/maps/companies.csv'
 };
 
