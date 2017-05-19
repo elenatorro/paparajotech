@@ -1,12 +1,12 @@
 import Ember from 'ember';
-import { Env } from 'config/environment';
+import ENV from 'paparajotech/config/environment';
 
 const {
   Service,
 } = Ember;
 
 const Companies = {
-  PATH: Env.environment === 'production'
+  PATH: ENV.environment === 'production'
     ? 'https://github.com/elenatorro/paparajotech/blob/master/public/maps/companies.csv'
     : '/maps/companies.csv'
 };
