@@ -30,8 +30,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/paparajotech-ember/';
-    ENV.apiURL = 'paparajotech-ember/api';
+    ENV.rootURL = './';
+    ENV.apiURL = '/api';
     ENV.useApi = false;
   }
 

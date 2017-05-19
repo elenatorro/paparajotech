@@ -1,3 +1,4 @@
 {
-  "usePods": true
+  "usePods": true,
+  "output-path": "./docs"
 }
