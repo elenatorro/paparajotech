@@ -30,7 +30,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/paparajotech';
+    ENV.rootURL = '/paparajotech/';
     ENV.apiURL = '/api';
     ENV.useApi = false;
   }
