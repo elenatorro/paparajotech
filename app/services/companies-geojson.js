@@ -7,7 +7,7 @@ const {
 
 const Companies = {
   PATH: ENV.environment === 'production'
-    ? 'https://github.com/elenatorro/paparajotech/blob/master/public/maps/companies.csv'
+    ? 'https://raw.githubusercontent.com/elenatorro/paparajotech/master/public/maps/companies.csv'
     : '/maps/companies.csv'
 };
 
