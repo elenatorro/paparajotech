@@ -7,21 +7,28 @@ const {
   RSVP: { Promise },
 } = Ember;
 
-const MeetupAPI = {
+const MeetupAPI = Object.freeze({
   URL: 'https://api.meetup.com'
-};
+});
+
+const FetchOptions = Object.freeze({
+  mode: 'no-cors',
+  headers: new Headers({
+    'Content-Type': 'application/json',
+    'Accept': 'application/json',
+  })
+});
 
 export default Service.extend({
   getEvent(eventName) {
-    return fetch(`${MeetupAPI.URL}/${eventName}?key=${MeetupApiKey}`, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json',
+    return fetch(`${MeetupAPI.URL}/${eventName}?key=${MeetupApiKey}`, FetchOptions)
+    .then((response) => {
+      if (response.ok) {
+        return response.json();
       }
     })
-    .then((response) => {
-      return response.json();
+    .catch((error) => {
+      console.log('error', error);
     });
   },
 
