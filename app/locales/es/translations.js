@@ -38,7 +38,7 @@ export default {
     navBar: {
       template: {
         menu: 'Menú',
-        companies: 'Empresas',
+        companies: 'Mapa de Empresas',
         events: 'Eventos',
         news: 'Noticias',
         contact: 'Contacto',

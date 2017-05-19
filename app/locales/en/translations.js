@@ -12,17 +12,17 @@ export default {
 
   contact: {
     template: {
-      aboutUs: 'Sobre el proyecto',
-      aboutUsDescription: 'paparajo.tech es una web que permite ubicar las distintas empresas de base tecnológica de la Región de Murcia, desde consultorías de diseño y desarrollo web hasta desarrollo de aplicaciones, entre otros. El objetivo es dar visibilidad al talento de la región, así como ofrecer un directorio con información sobre empresas que sea de utilidad para aquéllos que, por ejemplo, estén buscando empleo en tierras murcianas.',
-      contactUs: 'Contacta con nosotros',
-      contactUsDescription: 'Para contactar con nosotros, puedes hacerlo a través de nuestro correo electrónico',
-      addCompany: 'Añadir Empresa',
-      addCompanyQuestion: '¿Quieres añadir una empresa?',
-      addCompanyAnswer: 'Para añadir una empresa, por favor, rellena el siguiente formulario',
-      addEvent: 'Añadir Evento',
-      addEventQuestion: '¿Quieres añadir un evento?',
-      addEventAnswer: 'Para añadir un evento, por favor, rellena el siguiente formulario',
-      questions: 'Preguntas'
+      aboutUs: 'About the project',
+      aboutUsDescription: 'paparajo.tech is a web portal created with the purpose of showing the different tech-based companies in Murcia. Our aim is to increase the visibility of the companies, but also to offer information about these companies and attract talent, both national and international.',
+      contactUs: 'Contact us',
+      contactUsDescription: 'If you want to contact us, please send us an email.',
+      addCompany: 'Add Company',
+      addCompanyQuestion: 'Would you like to add a company?',
+      addCompanyAnswer: 'If you want to add a new company to the map, please fill this form:',
+      addEvent: 'Add Event',
+      addEventQuestion: 'Would you like to add an event?',
+      addEventAnswer: 'If you want to add a new event, please fill this form:',
+      questions: 'Questions'
     }
   },
 
@@ -38,7 +38,7 @@ export default {
     navBar: {
       template: {
         menu: 'Menu',
-        companies: 'Companies',
+        companies: 'Company Map',
         events: 'Events',
         news: 'News',
         contact: 'Contact',

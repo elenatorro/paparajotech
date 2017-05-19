@@ -7,7 +7,6 @@
 * Variables
 * -------------------------------------------------------------------- */
 
-$pt-background-image-path: 'images/background.png';
 $pt-phablet-max-size: 650px;
 
 $pt-z-index-base: 1000;
@@ -20,7 +19,6 @@ $pt-global-spacing: 16px;
 * -------------------------------------------------------------------- */
 
 html {
-  background: url($pt-background-image-path) no-repeat center center fixed;
   font-family: $font-ubuntu-regular;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -29,5 +27,6 @@ html {
 
 body, html {
   height: 100%;
+  min-height: 100%;
   display: block;
 }

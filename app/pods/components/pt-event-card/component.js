@@ -10,4 +10,8 @@ export default Ember.Component.extend({
   eventDateFormat: 'DD MMM YYYY',
 
   eventDateTimestamp: 'x', // Unix Timestamp
+
+  init() {
+    this._super(arguments);
+  }
 });

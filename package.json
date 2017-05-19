@@ -57,6 +57,8 @@
     "phantomjs": "^2.1.7"
   },
   "dependencies": {
+    "csv2geojson": "^5.0.2",
+    "ember-browserify": "1.1.13",
     "ember-leaflet": "3.0.9",
     "ember-leaflet-multi-options-polyline": "0.2.0",
     "ember-uuid": "1.0.0",
