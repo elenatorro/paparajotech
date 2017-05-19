@@ -3,9 +3,9 @@ import LeafletMap from 'ember-leaflet/components/leaflet-map';
 import csv2geojson from 'npm:csv2geojson';
 
 const MurciaCoords = Object.freeze({
-  LAT: 38.0493995,
-  LNG: -1.7174272,
-  ZOOM: 10
+  LAT: 38.086240,
+  LNG: -1.213506,
+  ZOOM: 9
 });
 
 export default LeafletMap.extend({
